@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-
+import {MatCardModule} from '@angular/material/card';
 @Component({
   selector: 'app-categorias',
   standalone: true,
-  imports: [],
+  imports: [MatCardModule],
   templateUrl: './categorias.component.html',
   styleUrl: './categorias.component.css'
 })
